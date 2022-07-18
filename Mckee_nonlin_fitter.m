@@ -4,7 +4,7 @@
 
 %InitialGuess = [2.4614 0.2916]; % initial guess for squeeze prob and scalling factor.
 %InitialGuess = [0.2127    0.2732];  % initial guess for tumour growth in pbs and collagenase 
-InitialGuess = [3.5*10^(-8) 0.079];% initial guess fbor infection rate beta and virus decay delta_v
+InitialGuess = [3.5*10^(-8) 0.079];% initial guess for infection rate beta and virus decay delta_v
 
 lb = [0 0]; % restricting lower boundary to 0
 ub = [ ];
